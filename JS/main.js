@@ -1,1 +1,0 @@
-alert("Nao saia dessa página sem conferir as novidades!");
