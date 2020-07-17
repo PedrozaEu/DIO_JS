@@ -1,3 +1,20 @@
+//Laços de repetição
+//for
+var count;
+for(count = 1; count <=5;count++){
+    console.log(count)
+}
+
+
+/*
+//while
+var count = 1
+while(count<=5)(
+    console.log(count++)
+)
+
+
+/*
 //Estruturas Condicionais IF e Else
 var idade = prompt("Qual sua idade");
 if (idade>=18){
@@ -5,6 +22,7 @@ if (idade>=18){
 } else{
     console.log("Menor de idade");
 }
+
 
 // // Dicionário
 // var carro = {nome: "Astra", ano: "2005", modelo: "Hatch", };//no dicionario os itens nao sao chamados por indices, mas pelo nome que pode ser um alias
