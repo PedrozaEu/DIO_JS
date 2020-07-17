@@ -1,8 +1,16 @@
-// Dicionário
-var carro = {nome: "Astra", ano: "2005", modelo: "Hatch", };//no dicionario os itens nao sao chamados por indices, mas pelo nome que pode ser um alias
-console.log(carro);
-console.log(carro.nome);
-console.log(carro.ano);
+//Estruturas Condicionais IF e Else
+var idade = prompt("Qual sua idade");
+if (idade>=18){
+    console.log("Maior de Idade");
+} else{
+    console.log("Menor de idade");
+}
+
+// // Dicionário
+// var carro = {nome: "Astra", ano: "2005", modelo: "Hatch", };//no dicionario os itens nao sao chamados por indices, mas pelo nome que pode ser um alias
+// console.log(carro);
+// console.log(carro.nome);
+// console.log(carro.ano);
 
 
 
