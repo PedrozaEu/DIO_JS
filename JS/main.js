@@ -1,4 +1,11 @@
 //Funcions
+//
+
+/*
+//Incluindo a function no botão html
+function botao(){
+    alert("Obrigado por clicar");
+}
 
 
 /*
