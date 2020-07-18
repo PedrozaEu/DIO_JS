@@ -1,3 +1,14 @@
+//Datas
+var d = new Date();
+var data = d.getDate();
+var mes = d.getMonth()+1;
+var ano = d.getFullYear();
+var lista = [data, mes, ano];
+console.log(lista.join("/"))
+
+
+
+/*
 //Laços de repetição
 //for
 var count;
