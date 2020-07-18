@@ -1,14 +1,29 @@
 //Funcions
+
+
+/*
 //soma
 var n1, n2; //var recebe 2 numeros atraves do prompt
 n1 = prompt ("Insira o 1º numero");//n1
 n2 = prompt ("Insira o 2º numero");//n2
 function soma (n1,n2) {
     return n1+n2;
-}//a função "soma" realiza a ação mediante os parametrospassados;
+}//a função "soma" realiza a ação mediante os parametros passados;
 console.log(soma(parseInt(n1),parseInt(n2)));//para somar o que vm do prompt deve ser feito o parse na impressão, senao vira string;
 
-//exemplo: function replace
+//exemplo: function replace corrigida. a funcão deve estar dentro do console log
+
+function setReplace(frase, asubstituir,substituto){
+    var asubstituir = prompt("Informe a palavra a Substituir");
+    var substituto = prompt("Informe a palavra Substituta");
+    return frase.replace(asubstituir,substituto);
+}
+var frase = prompt("Informe a frase");
+var asubstituir = ""; 
+var substituto = "";
+
+console.log(setReplace(frase,asubstituir,substituto));
+
 
 
 /*
