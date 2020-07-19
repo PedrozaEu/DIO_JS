@@ -1,5 +1,16 @@
 //Funcions
-//
+
+// Adcionado a função troca texto
+
+/* //Alterandoo conteudo do HTML por Injeção (innerHTML)
+function botao(){
+    document.getElementById("teimoso").innerHTML = "<h1>Que teimosia do caraio vuuuuhhh... agora dê ctrl+r, vá... </h1>";    
+    window.open("https://br.freepik.com/vetores-gratis/sinal-da-mao-do-dedo-medio_737105.htm")
+
+}
+ */
+
+
 
 /*
 //Incluindo a function no botão html
