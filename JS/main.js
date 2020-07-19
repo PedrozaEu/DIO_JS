@@ -1,6 +1,18 @@
-//Funcions
 
-// Adcionado a função troca texto referenciando o proprio elemento
+/*
+//Funcions
+// usando o onload
+function load(){
+    alert("Pagina carregada com sucesso");
+}
+
+function change(elemento){//não deu certo - Procurar ver o que deu erro
+    console.log(elemento.value);
+
+}
+
+
+/* // Adcionado a função troca texto referenciando o proprio elemento
 function trocatexto(elemento){
     elemento.innerHTML = "Passou o mouse";
     //document.getElementById("trocatexto").innerHTML = ("Passou o mouse");

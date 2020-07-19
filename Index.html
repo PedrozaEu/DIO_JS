@@ -6,15 +6,21 @@
     <script type="text/javascript" src="JS/main.js"></script>
 
 </Head>
-<body>
+<body onload="load()">
     <h1>E a gente fica feliz paporra quando acerta!</h1>
     <!-- <button type="button" onclick="botao()">clique aqui</button> -->
     <button type="button" onclick="botao()">NÃO clique aqui</button>
     <p id="teimoso">"Vá... clique mermo... seja atitude!!</p>
     <p id="trocatexto" onmouseover="trocatexto(this)" onmouseout="voltar(this)">Passe o mouse aqui!!</p>
     <p id="trocatexto2" onmouseover="trocatexto(this)" onmouseout="voltar(this)">Passe o mouse aqui, agora!!</p>
+    <select name="sl1" id="sl1" onchange="change(this)">
+        <option value="value1">Valor 1</option>
+        <option value="value2">Valor 2</option>
+        <option value="value3">Valor 3</option>
+        <option value="value4">Valor 4</option> 
+    </select>
     
-    
+
 </body>
 <footer>
 
