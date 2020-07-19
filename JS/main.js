@@ -1,6 +1,14 @@
 //Funcions
 
-// Adcionado a função troca texto
+// Adcionado a função troca texto referenciando o proprio elemento
+function trocatexto(elemento){
+    elemento.innerHTML = "Passou o mouse";
+    //document.getElementById("trocatexto").innerHTML = ("Passou o mouse");
+}
+function voltar(elemento){
+    elemento.innerHTML = "Passe o mouse aqui!!";
+    //document.getElementById("trocatexto").innerHTML = ("Passe o mouse aqui!!");
+}
 
 /* //Alterandoo conteudo do HTML por Injeção (innerHTML)
 function botao(){
